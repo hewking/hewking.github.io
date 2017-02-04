@@ -2,7 +2,7 @@
 layout: post
 title:  "Android导入第三方静态库.a编译成.so"
 crawlertitle: "Android导入第三方静态库.a编译成.so"
-summary: "MultiTypeAdater解析"
+summary: "静态库.a编译成.so"
 date:   2016-06-28 23:09:47 +0700
 categories: posts
 tags: 'AndroidNDK'
@@ -14,12 +14,13 @@ http://blog.csdn.net/syh63053767/article/details/8188219
 http://blog.csdn.net/shulianghan/article/details/18964835
 
 下面我以一个简单的实际例子来讲解如何在动态库中导入静态库。
+[github sample](https://github.com/hewking/JniCryptDemo/tree/master/mylibrary)
 
 静态库中的源代码有两个文件：static.h, static.c，有一个add方法
 
 static.h
-1
-2
+
+
 ```
 #include <stdio.h>
 
