@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "test"
-crawlertitle: "测试 jekyll"
-summary: "测试"
+crawlertitle: "MultiTypeAdater解析"
+summary: "MultiTypeAdater解析"
 date:   2016-06-28 23:09:47 +0700
 categories: posts
 tags: '测试'
