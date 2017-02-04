@@ -80,6 +80,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 ```
 及赋值
 
+
 ```
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
