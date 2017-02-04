@@ -43,6 +43,7 @@ author: hewking
 ```
 
 并在构造方法中对属性赋值
+
 ```
     private void initAttributes(AttributeSet attrs) {
         if (attrs == null) {
@@ -56,6 +57,7 @@ author: hewking
         typedArray.recycle();
     }
 ```
+
 ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 ```
    <declare-styleable name="CalendarView">
