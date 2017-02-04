@@ -9,9 +9,7 @@ tags: 'AndroidSource'
 author: hewking
 ---
 
-<!-- [EdittextPasswordLimite](https://github.com/yanbinbin/EdittextPasswordLimite)
 
-[带小眼睛的editext](https://github.com/pucamafra/android-edittextpassword) -->
 >因为业务需要，使用EditText，只需要字母数字下划线输入。
 
 EditText 有很多属性可以设置，与需求相关的是inputType.
