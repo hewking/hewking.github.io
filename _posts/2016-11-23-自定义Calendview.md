@@ -70,6 +70,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 即可在layou.xml布局中使用相应属性。
 
 作为view 需要有宽高
+
 ```
     // view的宽度
     private int mViewWidth;
