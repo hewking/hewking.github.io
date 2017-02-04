@@ -71,6 +71,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 
 作为view 需要有宽高
 
+
 ```
     // view的宽度
     private int mViewWidth;
@@ -78,6 +79,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
     private int mViewHeight;
 ```
 及赋值
+
 ```
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
@@ -90,6 +92,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 本例中因为为基本view 所以对onMeasure 为默认设置，不作自定义实现。
 
 分析题图，本例中需要三行七列的数字从1-21。并需要在每一个数字都需要判断是否设置原型背景，以及数字下方是否设置原点，及颜色。相对比较容易实现
+
 
 ```
     protected void onDraw(Canvas canvas) {
@@ -112,6 +115,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
     }
 ```
 onDraw 首先设置整个view 背景。再设置行列数，以及间隔 xInterval yInterval 背景圆半径 mBgRadius 字体大小 mDayTextsize 
+
 
 ```
     private void drawDay(Canvas canvas) {
@@ -137,6 +141,7 @@ onDraw 首先设置整个view 背景。再设置行列数，以及间隔 xInterv
     }
 ```
 接下来进行绘制天
+
 
 ```
    private void drawDayText(float x, float y, String text, int textColor, boolean isToday, boolean isSignup, Canvas canvas, float offset) {
@@ -185,6 +190,7 @@ onDraw 首先设置整个view 背景。再设置行列数，以及间隔 xInterv
     }
 ```
 在dispatchTouchEvent 中进行选中某天判断
+
 ```
   public boolean dispatchTouchEvent(MotionEvent event) {
         // 获取事件的位置
