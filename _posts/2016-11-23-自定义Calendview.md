@@ -43,6 +43,7 @@ author: hewking
 ```
 
 并在构造方法中对属性赋值
+
 ```
     private void initAttributes(AttributeSet attrs) {
         if (attrs == null) {
@@ -109,6 +110,7 @@ ps : 属性的定义需要在 res values 中的 attrs中设置 如下
     }
 ```
 onDraw 首先设置整个view 背景。再设置行列数，以及间隔 xInterval yInterval 背景圆半径 mBgRadius 字体大小 mDayTextsize 
+
 ```
     private void drawDay(Canvas canvas) {
         mPaint.setTextSize(mDayTextsize);
