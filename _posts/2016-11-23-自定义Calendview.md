@@ -3,7 +3,7 @@ layout: post
 title:  "自定义CalenderView"
 crawlertitle: "自定义CalenderView"
 summary: "自定义CalenderView"
-date:   2016-11-28 20:09:47 +0700
+date:   2016-11-28 23:09:47 +0700
 categories: posts
 tags: 'AndroidSource'
 author: hewking
@@ -43,7 +43,6 @@ author: hewking
 ```
 
 并在构造方法中对属性赋值
-
 ```
     private void initAttributes(AttributeSet attrs) {
         if (attrs == null) {
@@ -57,7 +56,6 @@ author: hewking
         typedArray.recycle();
     }
 ```
-
 ps : 属性的定义需要在 res values 中的 attrs中设置 如下
 ```
    <declare-styleable name="CalendarView">
