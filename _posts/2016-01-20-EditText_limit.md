@@ -10,7 +10,7 @@ author: hewking
 ---
 
 
->因为业务需要，使用EditText，只需要字母数字下划线输入。
+> 因为业务需要，使用EditText，只需要字母数字下划线输入。
 
 EditText 有很多属性可以设置，与需求相关的是inputType.
 例如：android:inputType="textGapCharacter"。在这里采取另外的方式实现，EditText 继承 TextView 所以可以设置TextWatcher,能够对各种输入做操作。包括禁止，改变颜色，大小等。
