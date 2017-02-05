@@ -7,7 +7,7 @@ summary: ""
 date:   2015-06-28 23:09:47 +0700
 ---
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 100 %}
   <article class="index-page">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
