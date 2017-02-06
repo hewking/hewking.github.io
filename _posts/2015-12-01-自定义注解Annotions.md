@@ -8,6 +8,9 @@ categories: posts
 tags: '编程基础'
 author: hewking
 ---
+
+> Annotion 自jdk 5.0 引入，在java中方方面面均有涉及，本文在使用上做相应记录
+
 ### what is 注解
    Annotion 是java提供的一种元程序中的元素关联任何信息和任何元数据的途径和方法。Annotion 是接口，程序可以通过反射来获取指定程序元素的注解对象，然后通过注解对象来获取注解里面的元数据。
     Annotion 是jdk 5.0 之后引入的，可以用于创建文档，跟踪代码的依赖性，甚至执行编译检查，从某些方面看，annotion就像修饰符一样被使用，应用于包，类型，构造方法，方法，成员变量，参数，本地变量的申明中。这些信息被存储在Annotion 的 “name=value”结构对中。
