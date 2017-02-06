@@ -10,7 +10,7 @@ active: about
 
 程剑豪
 
-职业：Android Developer
+Keep going , follow your heart
 
-联系方式：604910070@qq.com
+联系方式：cjh1095358798@gmail.com
 
