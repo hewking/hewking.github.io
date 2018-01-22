@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GestureDetector与View触摸事件"
+title:  "GestureRulerView GestureDetector与View触摸事件"
 crawlertitle: "GestureDetector与View触摸事件"
 summary: "GestureDetector与View触摸事件"
 date:   2017-10-21 23:09:47 +0700
